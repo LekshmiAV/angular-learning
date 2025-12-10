@@ -1,0 +1,73 @@
+.formStyle {
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textStyle {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.innerTopBar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.removeStyle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.addCartStyle {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formStyle {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 600px;
+}
+
+.fieldStyle{
+  padding: 12px; margin-top: 5px; width: 300px; font-size: 16px;
+}
